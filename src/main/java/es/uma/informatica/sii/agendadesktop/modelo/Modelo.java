@@ -5,11 +5,10 @@
 package es.uma.informatica.sii.agendadesktop.modelo;
 
 import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
-import javax.persistence.TypedQuery;
 
 /**
  *
@@ -28,18 +27,18 @@ public class Modelo {
     
     public boolean aniadirContacto (Contacto c)
     {
-        // TODO: Insertar código para añadir contacto a la BBDD (se puede hacer en 4 líneas)
+        // TODO: Insertar código para añadir contacto a la BBDD (se puede hacer en 3 o 4 líneas)
         return true;
     }
     
     public void modificarContacto (Contacto c)
     {
-        // TODO: Insertar código para modificar contacto de la BBDD (se puede hacer en 4 líneas)
+        // TODO: Insertar código para modificar contacto de la BBDD (se puede hacer en 3 o 4 líneas)
     }
     
     public void eliminarContacto (Contacto c)
     {
-        // TODO: Insertar código para eliminar un contacto de la BBDD (se puede hacer en 4 líneas)
+        // TODO: Insertar código para eliminar un contacto de la BBDD (se puede hacer en 3 o 4 líneas)
     }
     
     public List<Contacto> getContactos()
